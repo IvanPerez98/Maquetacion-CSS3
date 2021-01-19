@@ -1,0 +1,104 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(24, 23, 23);
+}
+
+.container {
+  background-color: rgb(198, 201, 198);
+  border-radius: 10px;
+  margin: 100px auto;
+  position: relative;
+  height: 600px;
+  width: 80%;
+}
+
+.container nav {
+  background-color: #700ce2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+.container nav div {
+  color: #ffffff;
+  display: inline-block;
+  padding: 20px;
+  width: 20%;
+}
+
+figure {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(115, 9, 236);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 25%;
+}
+
+figure img {
+  width: 100%;
+}
+
+figure:hover {
+  z-index: 20;
+}
+
+#li1 {
+  left: 0%;
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+}
+
+#li2 {
+  left: 20%;
+  position: absolute;
+  top: 20%;
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);
+  z-index: 2;
+}
+
+#li3 {
+  left: 49%;
+  position: absolute;
+  top: 30%;
+  z-index: 3;
+}
+
+#li4 {
+  left: 70%;
+  position: absolute;
+  top: 30%;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  z-index: 4;
+}
+
+.fixed-sidebar {
+  border: 2px solid rgb(88, 8, 238);
+  background-color: rgb(255, 255, 255);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 1em;
+  height: 40%;
+  position: fixed;
+  text-align: center;
+  top: 30%;
+  width: 80px;
+}
+
+.fixed-sidebar ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.fixed-sidebar img {
+  margin: 5%;
+  width: 90%;
+}
